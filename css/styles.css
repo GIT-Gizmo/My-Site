@@ -99,6 +99,11 @@ hr {
     margin-bottom: 100px;
 }
 
+.contact-text {
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
