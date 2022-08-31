@@ -1,0 +1,162 @@
+/*To specifiy the border of an element you can either specify by each side div {
+    border-top: 5px;
+    broder-right: 2px;
+    border-bottom: 5px;
+    border-left: 2px;
+}
+or use the circle shorthand which goes round the element in a clockwise fashion from top to right to bottom to left div {
+    border-width: 5px 2px 5px 2px
+}*/
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+h1 {
+    color: #66BFBF;
+    font-family: 'Allura', cursive ;
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.intro {
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-color: #DDDDDD;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 5%;
+}
+
+.profile {
+    margin-bottom: 50px;
+}
+
+.profile-image {
+    margin-top: 70px;
+    width: 13%;
+}
+
+.profile-text {
+    font-weight: bold;
+    line-height: 2;
+    margin: auto 400px auto 400px;
+    text-align: center;
+}
+
+.coding {
+    float: left;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.game {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.web {
+    color: #18978F;
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #D6EFED;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    margin-bottom: 10px;
+}
+
+.contact-me {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px;
+}
+
+.footer-link {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.username {
+    color: #EAF6F6;
+    font-size: 14px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;  
+    left: 300px;
+    bottom: 300px;
+}
+
+
+
