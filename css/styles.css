@@ -54,9 +54,8 @@ hr {
 
 .profile-text {
     font-weight: bold;
-    line-height: 2;
-    margin: auto 400px auto 400px;
-    text-align: center;
+    margin: auto;
+    width: 30%;
 }
 
 .coding {
@@ -164,5 +163,18 @@ hr {
     bottom: 300px;
 }
 
+.mountain {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+}
 
 
